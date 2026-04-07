@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5EB5D7"/>
+      <stop offset="100%" stop-color="#319060"/>
+    </linearGradient>
+  </defs>
+  <!-- FAB: reduced font size with padding to ensure all letters visible -->
+  <text x="50" y="67" text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif" font-weight="900"
+        font-size="52" fill="url(#g)" letter-spacing="-1">FAB</text>
+</svg>

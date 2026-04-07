@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1912px" height="1130px" viewBox="0 0 1912 1130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fabcon</title>
+    <defs>
+        <linearGradient x1="69.3678086%" y1="40.5973338%" x2="29.4856498%" y2="42.454613%" id="linearGradient-1">
+            <stop stop-color="#5EB5D7" offset="0%"></stop>
+            <stop stop-color="#319060" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fabcon" fill-rule="nonzero">
+            <text id="Microsoft-Fabric-COM" font-family="Calibre-Regular, Calibre" font-size="168" font-weight="normal" line-spacing="81" fill="#FFFFFF">
+                <tspan x="406.64" y="280.808">Microsoft Fabric</tspan>
+                <tspan x="1485.2" y="350" font-size="163"></tspan>
+                <tspan x="422.268" y="427.964" font-size="94">COMMUNITY CONFERENCE</tspan>
+                <tspan x="1478.452" y="431" font-family="Calibre-Bold, Calibre" font-size="297" font-weight="bold"></tspan>
+            </text>
+            <text id="FABCON" fill="url(#linearGradient-1)" font-family="Calibre-Bold, Calibre" font-size="300" font-weight="bold">
+                <tspan x="423.95" y="195">FABCON</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
