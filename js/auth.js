@@ -5,9 +5,14 @@
     return pw === atob('SzkjbVR6NHhWcDg=');
   }
 
+  // Already authenticated — do nothing
   if (sessionStorage.getItem(SESSION_KEY) === '1') return;
 
+  // Hide the page immediately (synchronous — no flash)
+  document.documentElement.style.visibility = 'hidden';
+
   document.addEventListener('DOMContentLoaded', function () {
+    // Page is ready — show overlay then restore visibility
     var overlay = document.createElement('div');
     overlay.id = 'auth-overlay';
     overlay.innerHTML = [
@@ -35,6 +40,7 @@
 
     document.head.appendChild(style);
     document.body.insertBefore(overlay, document.body.firstChild);
+    document.documentElement.style.visibility = 'visible';
 
     var input = document.getElementById('auth-input');
     var btn = document.getElementById('auth-btn');
